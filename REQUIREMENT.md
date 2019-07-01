@@ -63,7 +63,7 @@ Data:
    - Data will be saved with SqlLite (default data engine of Django) and using the Build in ORM and admin page of Django.
    - Data model:
         
-    ![GitHub Logo](/img/model.jpg)
+   ![GitHub Logo](/img/model.jpg)
 
 
 ## Step by step guild of part 2:
