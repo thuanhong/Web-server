@@ -10,6 +10,10 @@ jobs:
             echo 'Hello World!'
             echo 'This is the delivery pipeline'
       - run:
+          name: output list file
+          command: |
+            ls -l
+      - run:
           name: Runserver
           command: |
             cd pythonweb
