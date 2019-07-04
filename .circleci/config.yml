@@ -15,7 +15,7 @@ jobs:
           command: |
             pwd
             ls -l
-       run:
+      - run:
           name: Testing
           command: |
             python3 manage.py test moviepoll
