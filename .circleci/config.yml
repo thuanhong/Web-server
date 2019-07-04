@@ -1,6 +1,7 @@
 version: 2.0
 jobs:
   build:
+    working_directory: ~/Web-server/pythonweb
     docker:
       - image: circleci/python:3.6.4
     steps:
@@ -14,8 +15,11 @@ jobs:
           command: |
             pwd
             ls -l
+       run:
+          name: Testing
+          command: |
+            python3 manage.py test moviepoll
       - run:
           name: Runserver
           command: |
-            cd pythonweb
             python3 manage.py runserver
