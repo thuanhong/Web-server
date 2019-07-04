@@ -12,6 +12,7 @@ jobs:
       - run:
           name: output list file
           command: |
+            pwd
             ls -l
       - run:
           name: Runserver
