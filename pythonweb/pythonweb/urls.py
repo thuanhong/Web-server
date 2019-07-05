@@ -19,5 +19,6 @@ from moviepoll import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('moviepoll/', include("moviepoll.urls")),
     path('admin/', admin.site.urls),
 ]
