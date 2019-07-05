@@ -26,6 +26,7 @@ jobs:
       - run:
           name: Run TestCase
           command: |
+            cd pythonweb
             pipenv run python3 manage.py test
       - run:
           name: Run TestCase 2
