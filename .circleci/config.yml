@@ -10,14 +10,14 @@ jobs:
     steps:
       - checkout
 
-      # Download and cache dependencies
+      # Download and cache project
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "requirements.txt" }}
-          - v1-dependencies-
+          - v1-project-{{ checksum "requirements.txt" }}
+          - v1-project-
 
       - run:
-          name: Install Dependencies
+          name: Install project
           command: |
             python3 -m venv venv
             . venv/bin/activate
@@ -25,7 +25,8 @@ jobs:
       - save_cache:
           paths:
             - ./venv
-          key: v1-dependencies-{{ checksum "requirements.txt" }}
+            - key.txt
+          key: v1-project-{{ checksum "requirements.txt" }}
         
       # run tests!
       # this example uses Django's built-in test-runner
@@ -40,4 +41,4 @@ jobs:
             python3 manage.py test moviepoll
       - store_artifacts:
           path: test-reports
-destination: test-reports
+          destination: test-reports
