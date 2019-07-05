@@ -1,7 +1,7 @@
 version: 2.0
 jobs:
   build:
-    working_directory: ~/Web-server/pythonweb
+    working_directory: ~/Web-server
     docker:
       - image: circleci/python:3.6.4
     steps:
@@ -14,7 +14,7 @@ jobs:
           name: output list file
           command: |
             pwd
-            ls -l
+            ls -al
       - run:
           name: Testing
           command: |
