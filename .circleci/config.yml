@@ -1,25 +1,45 @@
-version: 2.0
+version: 2
 jobs:
   build:
-    working_directory: ~/Web-sever
     docker:
-      - image: circleci/python:3.6.4
+      # specify the version you desire here
+      # use `-browsers` prefix for selenium tests, e.g. `3.6.1-browsers`
+      - image: circleci/python:3.6.1
+    working_directory: ~/Web-sever
+
     steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "requirements.txt" }}
+          - v1-dependencies-
+
       - run:
-          name: The First Step
+          name: Install Dependencies
           command: |
-            echo 'Hello World!'
-            echo 'This is the delivery pipeline'
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "requirements.txt" }}
+        
+      # run tests!
+      # this example uses Django's built-in test-runner
+      # other common Python testing frameworks include pytest and nose
+      # https://pytest.org
+      # https://nose.readthedocs.io
       - run:
-          name: output list file
+          name: Run TestCase
           command: |
-            pwd
-            ls -al
-      - run:
-          name: Testing
-          command: |
-            python3 manage.py test moviepoll
-      - run:
-          name: Runserver
-          command: |
-            python3 manage.py runserver
+            . venv/bin/activate
+            cd pythonweb
+            python manage.py test moviepoll
+            coverage xml **/*.py
+            python-codacy-coverage -r coverage.xml
+      - store_artifacts:
+          path: test-reports
+destination: test-reports
