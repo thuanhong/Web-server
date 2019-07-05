@@ -13,20 +13,19 @@ jobs:
       # Download and cache project
       - restore_cache:
           keys:
-          - v1-project-{{ checksum "requirements.txt" }}
+          - v1-project-{{ checksum "Pipfile.lock" }}
           - v1-project-
 
       - run:
           name: Install project
           command: |
-            python3 -m venv venv
-            . venv/bin/activate
-            pip install -r requirements.txt
+            sudo pip3 install pipenv
+            pipenv install
       - save_cache:
           paths:
             - ./venv
             - key.txt
-          key: v1-project-{{ checksum "requirements.txt" }}
+          key: v1-project-{{ checksum "Pipfile.lock" }}
         
       # run tests!
       # this example uses Django's built-in test-runner
@@ -39,6 +38,10 @@ jobs:
             . venv/bin/activate
             cd pythonweb
             python3 manage.py test moviepoll
+      - run:
+          name: Run TestCase 2
+          command: |
+            pipenvrun python3 manage.py test
       - store_artifacts:
           path: test-reports
           destination: test-reports
