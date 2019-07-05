@@ -22,16 +22,9 @@ jobs:
       - save_cache:
           paths:
             - ./venv
-            - key.txt
           key: v1-project-{{ checksum "Pipfile.lock" }}
       - run:
           name: Run TestCase
-          command: |
-            . venv/bin/activate
-            cd pythonweb
-            python3 manage.py test moviepoll
-      - run:
-          name: Run TestCase 2
           command: |
             pipenvrun python3 manage.py test
       - store_artifacts:
