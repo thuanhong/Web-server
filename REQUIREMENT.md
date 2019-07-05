@@ -63,7 +63,7 @@ Data:
    - Data will be saved with SqlLite (default data engine of Django) and using the Build in ORM and admin page of Django.
    - Data model:
         
-    ![GitHub Logo](/model.jpg)
+   ![GitHub Logo](/img/model.jpg)
 
 
 ## Step by step guild of part 2:
@@ -105,5 +105,5 @@ Notions: html, css, static file, and django
 
 Just make our Movie Poll more beauty. Try leaning some basic HTML & CSS by your self and applied it to your Poll.
 
-![GitHub Logo](/bonus.gif)
+![GitHub Logo](/img/bonus.gif)
 
