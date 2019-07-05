@@ -26,7 +26,15 @@ jobs:
       - run:
           name: Run TestCase
           command: |
-            pipenvrun python3 manage.py test
+            pipenv run python3 manage.py test
+      - run:
+          name: Run TestCase 2
+          command: |
+            . venv/bin/activate
+            mkdir test-reports
+            pytest --junitxml=test-reports/junit.xml
+      - store_test_results:
+          path: test-reports
       - store_artifacts:
           path: test-reports
           destination: test-reports
