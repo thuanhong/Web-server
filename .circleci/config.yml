@@ -37,9 +37,7 @@ jobs:
           command: |
             . venv/bin/activate
             cd pythonweb
-            python manage.py test moviepoll
-            coverage xml **/*.py
-            python-codacy-coverage -r coverage.xml
+            python3 manage.py test moviepoll
       - store_artifacts:
           path: test-reports
 destination: test-reports
