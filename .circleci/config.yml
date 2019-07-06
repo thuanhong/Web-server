@@ -1,25 +1,29 @@
-version: 2.0
+version: 2
 jobs:
   build:
-    working_directory: ~/Web-sever
     docker:
-      - image: circleci/python:3.6.4
+      - image: circleci/python:3.7
+    working_directory: ~/Web-sever
+
     steps:
+      - checkout
+
+      # Download and cache project
+      - restore_cache:
+          keys:
+          - v1-project-{{ checksum "Pipfile.lock" }}
+          - v1-project-
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-project-{{ checksum "Pipfile.lock" }}
       - run:
-          name: The First Step
+          name: Install project
           command: |
-            echo 'Hello World!'
-            echo 'This is the delivery pipeline'
+            sudo pip3 install pipenv
+            pipenv install
       - run:
-          name: output list file
+          name: Run TestCase
           command: |
-            pwd
-            ls -al
-      - run:
-          name: Testing
-          command: |
-            python3 manage.py test moviepoll
-      - run:
-          name: Runserver
-          command: |
-            python3 manage.py runserver
+            cd pythonweb
+            pipenv run python3 manage.py test
