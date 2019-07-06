@@ -23,11 +23,6 @@ jobs:
             sudo pip3 install pipenv
             pipenv install
       - run:
-          name: Check code style
-          command: |
-            cd pythonweb
-            pylint manage.py
-      - run:
           name: Run TestCase
           command: |
             cd pythonweb
