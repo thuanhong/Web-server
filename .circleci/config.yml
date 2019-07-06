@@ -13,29 +13,22 @@ jobs:
           keys:
           - v1-project-{{ checksum "Pipfile.lock" }}
           - v1-project-
-
-      - run:
-          name: Install project
-          command: |
-            sudo pip3 install pipenv
-            pipenv install
       - save_cache:
           paths:
             - ./venv
           key: v1-project-{{ checksum "Pipfile.lock" }}
       - run:
+          name: Install project
+          command: |
+            sudo pip3 install pipenv
+            pipenv install
+      - run:
+          name: Check code style
+          command: |
+            cd pythonweb
+            pylint manage.py
+      - run:
           name: Run TestCase
           command: |
             cd pythonweb
             pipenv run python3 manage.py test
-      - run:
-          name: Run TestCase 2
-          command: |
-            . venv/bin/activate
-            mkdir test-reports
-            pytest --junitxml=test-reports/junit.xml
-      - store_test_results:
-          path: test-reports
-      - store_artifacts:
-          path: test-reports
-          destination: test-reports
