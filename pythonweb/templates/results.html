@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>{{question.question.question_text}}</h1>
+
+        <ul>
+            {% for choice in question.choice_set.all %}
+            <li>{{choice.choice_set}} -- {{choice.votes}} vote{{choice.votes|pluralize}}</li>
+            {% endfor %}
+        </ul>
+
+        <a href="{% url 'detail' question.id %}">Vote Again</a>
+    </body>
+</html>
