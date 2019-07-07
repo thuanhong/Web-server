@@ -50,9 +50,9 @@ def vote(request, question_id):
         selected_choice.save()
         return HttpResponseRedirect(reverse('results', args=(question.id,)))
 
-# def detail(request, question_id):
-#     question = get_object_or_404(Question, pk=question_id)
-#     return render(request, 'detail.html', {'question': question})
+def home(request):
+    my_dict = {'content':'Home Page'}
+    return render(request, 'home.html', context=my_dict)
 
 # def index(request):
 #     latest_question_list = Question.objects.order_by('-pub_date')[::-1]
