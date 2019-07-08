@@ -6,20 +6,21 @@
         <title>Intek Movie Friday Poll</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
     </head>
-    <body>
-        <p>Hello World</p>
-
-        {% if latest_question_list %}
-        <ul>
-            {% for question in latest_question_list %}
-                <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
-            {% endfor %}
-        </ul>
-        {% else %}
-        <p>No polls are available.</p>
-        {% endif %}
-
+    <body id="index">
+        <div class="home index">
+            <h1 style="color:black">Please choice day</h1>
+            {% if latest_question_list %}
+            <ul>
+                {% for question in latest_question_list %}
+                    <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <p>No polls are available.</p>
+            {% endif %}
+        </div>
     </body>
 </html>

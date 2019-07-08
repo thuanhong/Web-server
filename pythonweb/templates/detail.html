@@ -3,24 +3,30 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Details</title>
+        <title>Choice movie</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
     </head>
-    <body>
-        <h1>{{ question.question_text }}</h1>
-        {% if error_message %}
-        <p><strong>{{ error_message }}</strong></p>
-        {% endif %}
+    <body id="detail">
+        <div class="home index">
+            <h1>{{ question.question_text }}</h1>
 
-        <form action="{% url 'vote' question.id %}" method="post">
-            {% csrf_token %}
-            {% for choice in question.choice_set.all %}
-                <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
-                <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
-            {% endfor %}
-            <input type="submit" value="Vote">
-        </form>
+            {% if error_message %}
+            <p><strong>{{ error_message }}</strong></p>
+            {% endif %}
+    
+            <form action="{% url 'vote' question.id %}" method="post">
+                {% csrf_token %}
+                {% for choice in question.choice_set.all %}
+                    <div class="choice">
+                        <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+                        <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
+                    </div>
+                {% endfor %}
+                <input id="submit" type="submit" value="Vote">
+            </form>
+        </div>
     </body>
 </html>

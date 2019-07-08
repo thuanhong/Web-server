@@ -9,7 +9,6 @@ from django.utils import timezone
 class IndexView(generic.ListView):
     template_name = 'index.html'
     context_object_name = 'latest_question_list'
-    # model = Question
     
     def get_queryset(self):
         """
@@ -30,11 +29,6 @@ class DetailView(generic.DetailView):
         return Question.objects.filter(pub_date__lte=timezone.now())
 
 
-class ResultsView(generic.DetailView):
-    model = Question
-    template_name = 'results.html'
-
-
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     try:
@@ -50,15 +44,18 @@ def vote(request, question_id):
         selected_choice.save()
         return HttpResponseRedirect(reverse('results', args=(question.id,)))
 
-# def detail(request, question_id):
-#     question = get_object_or_404(Question, pk=question_id)
-#     return render(request, 'detail.html', {'question': question})
+def home(request):
+    my_dict = {'content':'Home Page'}
+    return render(request, 'home.html', context=my_dict)
 
-# def index(request):
-#     latest_question_list = Question.objects.order_by('-pub_date')[::-1]
-#     context = {'latest_question_list': latest_question_list}
-#     return render(request, 'index.html', context)
 
-# def results(request, question_id):
-#     question = get_object_or_404(Question, pk=question_id)
-#     return render(request, 'results.html', {'question':question})
+def results(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    total = 0
+    for choice in question.choice_set.all():
+        total += choice.votes
+    my_dict = {
+        'question':question,
+        'value':total,
+    }
+    return render(request, 'results.html', my_dict)

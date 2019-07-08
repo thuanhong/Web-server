@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body id=home>
+        <div class="home">
+            <h1 style="color: royalblue;">Welcome to moivepoll app</h1>
+            <a href="{% url 'index' %}"><button id="hp">Go to Vote page</button></a>
+        </div>
+    </body>
+</html>
