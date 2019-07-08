@@ -9,11 +9,10 @@
         {% load static %}
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
     </head>
-    <body>
-        <img src="../static/image/bg_main.jpg" alt="background" class="background">
+    <body id=home>
         <div class="home">
             <h1 style="color: royalblue;">Welcome to moivepoll app</h1>
-            <a href="{% url 'index' %}"><button>Go to Vote page</button></a>
+            <a href="{% url 'index' %}"><button id="hp">Go to Vote page</button></a>
         </div>
     </body>
 </html>

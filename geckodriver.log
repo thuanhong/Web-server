@@ -1,0 +1,2090 @@
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 22.49 ms
+1562551436005	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7WaKTZKmPADq"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.7WaKTZKmPADq ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.7WaKTZKmPADq Child process initialized in 28.45 ms
+1562551436816	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562551436817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562551437094	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562551437200	Marionette	TRACE	Received observer notification profile-after-change
+1562551437501	Marionette	TRACE	Received observer notification command-line-startup
+1562551437502	Marionette	TRACE	Received observer notification nsPref:changed
+1562551437502	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562551438454	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562551438784	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562551440209	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562551440210	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1562551440754	Marionette	TRACE	All scripts recorded.
+1562551440754	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562551440755	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562551440755	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562551440755	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562551440757	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562551440758	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562551440759	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562551440759	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562551440760	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562551440760	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562551440760	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562551440763	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562551440763	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562551440763	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562551440763	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562551440764	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562551440764	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562551440766	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562551440766	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562551440767	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562551440767	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562551440767	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562551440768	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562551440768	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562551440769	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562551440769	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+JavaScript error: moz-extension://0a8d002e-3198-40dc-9171-7ef4b04c4c1b/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562551440927	Marionette	INFO	Listening on port 41681
+1562551440927	Marionette	DEBUG	Remote service is active
+1562551441016	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:38664
+1562551441018	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562551441019	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562551441055	Marionette	TRACE	[4294967297] Frame script loaded
+1562551441060	Marionette	TRACE	[4294967297] Frame script registered
+1562551441062	Marionette	TRACE	[2147483667] Frame script loaded
+1562551441063	Marionette	TRACE	[4294967300] Frame script loaded
+1562551441082	Marionette	TRACE	[2147483667] Frame script registered
+1562551441086	Marionette	TRACE	[4294967300] Frame script registered
+1562551441093	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"6b69b4d3-3a57-4d78-b8f3-aedc4ad8811a","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.7WaKTZKmPADq","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562551441101	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562551441181	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://7c047212-0a5f-4e43-a7a6-b41a3e7cc227/skin/firstRun.html
+1562551441199	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://7c047212-0a5f-4e43-a7a6-b41a3e7cc227/skin/firstRun.html
+1562551441200	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://7c047212-0a5f-4e43-a7a6-b41a3e7cc227/skin/firstRun.html
+1562551441204	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562551441442	Marionette	TRACE	[6442450945] Frame script loaded
+1562551441443	Marionette	TRACE	[6442450945] Frame script registered
+1562551441495	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562551441815	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562551441911	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562551441914	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562551441924	Marionette	DEBUG	0 -> [0,3,"WebDriver:GetTitle",{}]
+1562551441925	Marionette	DEBUG	0 <- [1,3,null,{"value":"Home Page"}]
+1562551441966	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"hp\"]"}]
+1562551441974	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1773be06-792b-4b6e-92f1-ec71907a9b4b"}}]
+1562551441977	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementClick",{"id":"1773be06-792b-4b6e-92f1-ec71907a9b4b"}]
+1562551441998	Marionette	DEBUG	0 <- [1,5,{"error":"element not interactable","message":"Element <a id=\"hp\" href=\"/moviepoll/\"> could not be scrolled into vie ... avigate@chrome://marionette/content/listener.js:410:13\nclickElement@chrome://marionette/content/listener.js:1210:5\n"},null]
+1562551442021	Marionette	DEBUG	0 -> [0,6,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562551442069	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562551442088	Marionette	DEBUG	0 <- [1,6,null,["4294967297"]]
+1562551442203	Marionette	DEBUG	Closed connection 0
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 21.03 ms
+1562551643679	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rFATi6PZS2C1"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.rFATi6PZS2C1 ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.rFATi6PZS2C1 Child process initialized in 23.71 ms
+1562551644184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562551644184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562551644449	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562551644520	Marionette	TRACE	Received observer notification profile-after-change
+1562551644847	Marionette	TRACE	Received observer notification command-line-startup
+1562551644847	Marionette	TRACE	Received observer notification nsPref:changed
+1562551644847	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562551645737	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562551645954	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562551646986	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562551646987	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+JavaScript error: moz-extension://7df31b1d-1e93-4e88-855f-f5323c278125/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562551647496	Marionette	TRACE	All scripts recorded.
+1562551647496	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562551647497	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562551647497	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562551647497	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562551647499	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562551647500	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562551647501	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562551647501	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562551647502	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562551647502	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562551647502	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562551647505	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562551647505	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562551647506	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562551647506	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562551647507	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562551647507	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562551647510	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562551647510	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562551647510	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562551647511	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562551647511	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562551647511	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562551647512	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562551647512	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562551647512	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562551647590	Marionette	INFO	Listening on port 43157
+1562551647590	Marionette	DEBUG	Remote service is active
+1562551647699	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50180
+1562551647713	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562551647713	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562551647764	Marionette	TRACE	[2147483667] Frame script loaded
+1562551647769	Marionette	TRACE	[2147483667] Frame script registered
+1562551647773	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"217c6d78-e819-471c-ad65-64272f6cb182","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.rFATi6PZS2C1","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562551647780	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562551647780	Marionette	TRACE	[4294967297] Frame script loaded
+1562551647781	Marionette	TRACE	[4294967297] Frame script registered
+1562551647828	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://e3c8b2e7-ff43-454a-a69b-435cbe797fde/skin/firstRun.html
+1562551647844	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://e3c8b2e7-ff43-454a-a69b-435cbe797fde/skin/firstRun.html
+1562551647845	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://e3c8b2e7-ff43-454a-a69b-435cbe797fde/skin/firstRun.html
+1562551647848	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562551648197	Marionette	TRACE	[6442450945] Frame script loaded
+1562551648198	Marionette	TRACE	[6442450945] Frame script registered
+1562551648247	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562551648570	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562551648659	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562551648662	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562551648680	Marionette	DEBUG	0 -> [0,3,"WebDriver:GetTitle",{}]
+1562551648680	Marionette	DEBUG	0 <- [1,3,null,{"value":"Home Page"}]
+1562551648712	Marionette	DEBUG	0 -> [0,4,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+JavaScript error: moz-extension://7df31b1d-1e93-4e88-855f-f5323c278125/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://7df31b1d-1e93-4e88-855f-f5323c278125/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+1562551648776	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562551648776	Marionette	DEBUG	0 <- [1,4,null,["4294967297"]]
+1562551648806	Marionette	DEBUG	Closed connection 0
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562551794737	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1562551794737	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1562551794738	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1562551794738	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1562551794738	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1562551794739	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1562551794739	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1562551794739	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1562551794739	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1562551794739	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1562551794740	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1562551794741	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1562551794741	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1562551794741	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1562551794741	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1562551794742	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1562551794742	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1562551794742	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1562551794742	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1562551794743	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1562551794743	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1562551794743	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1562551794743	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1562551794743	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1562551794743	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1562551794743	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1562551794744	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1562551794744	Marionette	INFO	Stopped listening on port 43157
+1562551794744	Marionette	DEBUG	Remote service is inactive
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562551797108	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1562551797108	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1562551797108	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1562551797108	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1562551797108	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1562551797109	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1562551797110	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1562551797110	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1562551797111	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1562551797111	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1562551797112	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1562551797112	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1562551797113	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1562551797113	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1562551797113	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1562551797113	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1562551797113	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1562551797113	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1562551797114	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1562551797114	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1562551797114	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1562551797114	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1562551797115	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1562551797115	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1562551797115	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1562551797115	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1562551797115	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1562551797116	Marionette	INFO	Stopped listening on port 41681
+1562551797116	Marionette	DEBUG	Remote service is inactive
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 22.20 ms
+1562551862012	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.d3VXMY7VwLAS"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.d3VXMY7VwLAS ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.d3VXMY7VwLAS Child process initialized in 20.71 ms
+1562551862535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562551862535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562551862807	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562551862866	Marionette	TRACE	Received observer notification profile-after-change
+1562551863144	Marionette	TRACE	Received observer notification command-line-startup
+1562551863144	Marionette	TRACE	Received observer notification nsPref:changed
+1562551863144	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562551864117	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562551864345	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562551865497	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562551865497	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+JavaScript error: moz-extension://65c55af5-29b7-4c2e-a7c7-9a1656c92d09/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562551865737	Marionette	TRACE	All scripts recorded.
+1562551865738	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562551865738	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562551865738	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562551865739	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562551865739	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562551865740	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562551865740	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562551865741	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562551865741	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562551865741	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562551865741	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562551865742	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562551865742	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562551865742	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562551865742	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562551865742	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562551865743	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562551865743	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562551865743	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562551865743	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562551865743	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562551865743	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562551865744	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562551865744	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562551865744	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562551865744	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562551865819	Marionette	INFO	Listening on port 34487
+1562551865819	Marionette	DEBUG	Remote service is active
+1562551865892	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:37448
+1562551866001	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562551866002	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562551866076	Marionette	TRACE	[4294967297] Frame script loaded
+1562551866079	Marionette	TRACE	[2147483667] Frame script loaded
+1562551866086	Marionette	TRACE	[4294967297] Frame script registered
+1562551866088	Marionette	TRACE	[2147483667] Frame script registered
+1562551866097	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"9f4c4dbe-730d-4c6f-9e91-84e073929ed6","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.d3VXMY7VwLAS","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562551866124	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562551866190	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://00c8d9b2-9cab-4fd2-91f0-1104db9e94fb/skin/firstRun.html
+1562551866286	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://00c8d9b2-9cab-4fd2-91f0-1104db9e94fb/skin/firstRun.html
+1562551866287	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://00c8d9b2-9cab-4fd2-91f0-1104db9e94fb/skin/firstRun.html
+1562551866294	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562551866591	Marionette	TRACE	[6442450945] Frame script loaded
+1562551866592	Marionette	TRACE	[6442450945] Frame script registered
+1562551866638	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562551866960	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562551867120	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562551867124	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562551867146	Marionette	DEBUG	0 -> [0,3,"WebDriver:GetTitle",{}]
+1562551867147	Marionette	DEBUG	0 <- [1,3,null,{"value":"Home Page"}]
+1562551867163	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"hp\"]"}]
+1562551867177	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1fa3cdb0-ab08-4e66-b6e4-f87c82e26e1a"}}]
+1562551867190	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementClick",{"id":"1fa3cdb0-ab08-4e66-b6e4-f87c82e26e1a"}]
+1562551867223	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/
+1562551867744	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/
+1562551867745	Marionette	TRACE	[6442450945] Received DOM event unload for http://127.0.0.1:8000/
+1562551867809	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/moviepoll/
+1562551869242	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/moviepoll/
+1562551869242	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1562551869253	Marionette	DEBUG	0 -> [0,6,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://65c55af5-29b7-4c2e-a7c7-9a1656c92d09/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://65c55af5-29b7-4c2e-a7c7-9a1656c92d09/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://65c55af5-29b7-4c2e-a7c7-9a1656c92d09/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+1562551869313	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562551869316	Marionette	DEBUG	0 <- [1,6,null,["4294967297"]]
+1562551869355	Marionette	DEBUG	Closed connection 0
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 22.39 ms
+1562551920461	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oEKnXfwEWIWd"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.oEKnXfwEWIWd ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.oEKnXfwEWIWd Child process initialized in 21.73 ms
+1562551920965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562551920965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562551921231	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562551921290	Marionette	TRACE	Received observer notification profile-after-change
+1562551921611	Marionette	TRACE	Received observer notification command-line-startup
+1562551921611	Marionette	TRACE	Received observer notification nsPref:changed
+1562551921611	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562551922548	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562551922784	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562551923737	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562551923739	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+JavaScript error: moz-extension://b183d357-fc7e-44b5-8062-269b34523b54/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562551923976	Marionette	TRACE	All scripts recorded.
+1562551923976	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562551923976	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562551923977	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562551923977	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562551923977	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562551923978	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562551923979	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562551923979	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562551923979	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562551923980	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562551923980	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562551923980	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562551923980	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562551923980	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562551923981	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562551923981	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562551923981	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562551923981	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562551923981	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562551923981	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562551923982	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562551923982	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562551923982	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562551923982	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562551923982	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562551923982	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562551924063	Marionette	INFO	Listening on port 39077
+1562551924063	Marionette	DEBUG	Remote service is active
+1562551924091	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53124
+1562551924144	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562551924145	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562551924218	Marionette	TRACE	[4294967297] Frame script loaded
+1562551924262	Marionette	TRACE	[2147483667] Frame script loaded
+1562551924277	Marionette	TRACE	[4294967297] Frame script registered
+1562551924279	Marionette	TRACE	[2147483667] Frame script registered
+1562551924290	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"28cbda66-9977-4527-a4c1-29ba4f1c2d77","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.oEKnXfwEWIWd","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562551924375	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562551924481	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://aac98273-f18f-430b-9783-d33e9f5102e1/skin/firstRun.html
+1562551924552	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://aac98273-f18f-430b-9783-d33e9f5102e1/skin/firstRun.html
+1562551924552	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://aac98273-f18f-430b-9783-d33e9f5102e1/skin/firstRun.html
+1562551924556	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562551924942	Marionette	TRACE	[8589934593] Frame script loaded
+1562551924943	Marionette	TRACE	[8589934593] Frame script registered
+1562551924994	Marionette	TRACE	[8589934593] Check readyState uninitialized for about:blank
+1562551925299	Marionette	TRACE	[8589934593] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562551925410	Marionette	TRACE	[8589934593] Received DOM event pageshow for http://127.0.0.1:8000/
+1562551925412	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562551925444	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"hp\"]"}]
+1562551925456	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e556095c-c51f-4954-ba35-331409111f5c"}}]
+1562551925460	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClick",{"id":"e556095c-c51f-4954-ba35-331409111f5c"}]
+1562551925492	Marionette	TRACE	[8589934593] Received DOM event beforeunload for http://127.0.0.1:8000/
+1562551925545	Marionette	TRACE	[8589934593] Received DOM event pagehide for http://127.0.0.1:8000/
+1562551925547	Marionette	TRACE	[8589934593] Received DOM event unload for http://127.0.0.1:8000/
+1562551925604	Marionette	TRACE	[8589934593] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/moviepoll/
+1562551925700	Marionette	TRACE	[8589934593] Received DOM event pageshow for http://127.0.0.1:8000/moviepoll/
+1562551925701	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1562551925716	Marionette	DEBUG	0 -> [0,5,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+JavaScript error: moz-extension://b183d357-fc7e-44b5-8062-269b34523b54/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://b183d357-fc7e-44b5-8062-269b34523b54/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://b183d357-fc7e-44b5-8062-269b34523b54/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+1562551925788	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562551925789	Marionette	DEBUG	0 <- [1,5,null,["4294967297"]]
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 23.80 ms
+1562551926876	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ShSER39lFtRr"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.ShSER39lFtRr ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.ShSER39lFtRr Child process initialized in 14.91 ms
+1562551927544	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562551927544	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562551927887	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562551927961	Marionette	TRACE	Received observer notification profile-after-change
+1562551928270	Marionette	TRACE	Received observer notification command-line-startup
+1562551928270	Marionette	TRACE	Received observer notification nsPref:changed
+1562551928270	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562551929484	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562551929719	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562551930692	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562551930693	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+JavaScript error: moz-extension://e55494b8-7119-415b-9114-9736f22e5728/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562551930863	Marionette	TRACE	All scripts recorded.
+1562551930863	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562551930863	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562551930863	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562551930864	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562551930864	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562551930865	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562551930865	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562551930865	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562551930865	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562551930866	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562551930866	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562551930866	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562551930866	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562551930866	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562551930867	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562551930867	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562551930867	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562551930867	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562551930867	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562551930867	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562551930867	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562551930867	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562551930868	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562551930868	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562551930868	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562551930868	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562551930927	Marionette	INFO	Listening on port 45039
+1562551930927	Marionette	DEBUG	Remote service is active
+1562551930987	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:52292
+1562551930991	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562551930991	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562551931049	Marionette	TRACE	[4294967297] Frame script loaded
+1562551931050	Marionette	TRACE	[4294967297] Frame script registered
+1562551931056	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"74f8aa35-f8ff-4e8d-a28d-99f6712f5db3","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.ShSER39lFtRr","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562551931074	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562551931109	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1562551931281	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+1562551931370	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562551931657	Marionette	TRACE	[2147483667] Frame script loaded
+1562551931669	Marionette	TRACE	[2147483667] Frame script registered
+1562551931887	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/
+1562551931895	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562551931917	Marionette	DEBUG	0 -> [0,3,"WebDriver:GetTitle",{}]
+1562551931918	Marionette	DEBUG	0 <- [1,3,null,{"value":"Home Page"}]
+1562551931921	Marionette	DEBUG	0 -> [0,4,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562551931941	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562551931942	Marionette	DEBUG	0 <- [1,4,null,["2147483667"]]
+1562551931979	Marionette	DEBUG	Closed connection 0
+1562551931997	Marionette	DEBUG	Closed connection 0
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+[Parent 3971, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-AFMdyg/firefox-65.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1562551938180	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1562551938180	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1562551938180	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1562551938181	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1562551938181	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1562551938182	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1562551938182	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1562551938182	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1562551938183	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1562551938183	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1562551938184	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1562551938184	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1562551938185	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1562551938185	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1562551938185	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1562551938185	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1562551938186	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1562551938186	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1562551938186	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1562551938187	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1562551938187	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1562551938187	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1562551938187	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1562551938187	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1562551938187	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1562551938188	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1562551938188	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1562551938189	Marionette	INFO	Stopped listening on port 39077
+1562551938189	Marionette	DEBUG	Remote service is inactive
+1562551939202	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1562551939202	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1562551939203	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1562551939203	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1562551939204	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1562551939205	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1562551939205	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1562551939205	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1562551939206	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1562551939207	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1562551939208	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1562551939209	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1562551939210	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1562551939210	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1562551939210	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1562551939210	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1562551939210	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1562551939210	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1562551939211	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1562551939211	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1562551939212	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1562551939212	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1562551939212	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1562551939212	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1562551939212	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1562551939212	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1562551939212	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1562551939213	Marionette	INFO	Stopped listening on port 45039
+1562551939213	Marionette	DEBUG	Remote service is inactive
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562551941770	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1562551941771	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1562551941771	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1562551941771	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1562551941772	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1562551941772	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1562551941772	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1562551941773	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1562551941773	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1562551941773	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1562551941774	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1562551941774	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1562551941775	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1562551941775	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1562551941776	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1562551941776	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1562551941776	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1562551941776	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1562551941776	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1562551941777	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1562551941777	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1562551941777	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1562551941777	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1562551941777	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1562551941777	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1562551941778	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1562551941778	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1562551941779	Marionette	INFO	Stopped listening on port 34487
+1562551941779	Marionette	DEBUG	Remote service is inactive
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 20.10 ms
+1562552038857	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3XZ7fzOBkUJO"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.3XZ7fzOBkUJO ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.3XZ7fzOBkUJO Child process initialized in 23.05 ms
+1562552039358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562552039359	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562552039627	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552039686	Marionette	TRACE	Received observer notification profile-after-change
+1562552040051	Marionette	TRACE	Received observer notification command-line-startup
+1562552040051	Marionette	TRACE	Received observer notification nsPref:changed
+1562552040051	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562552040985	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562552041209	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552042367	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562552042369	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+JavaScript error: moz-extension://9da3845e-460b-43c7-912b-d39796769326/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562552042660	Marionette	TRACE	All scripts recorded.
+1562552042660	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562552042666	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562552042669	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562552042669	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562552042670	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562552042672	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562552042672	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562552042673	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562552042673	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562552042673	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562552042674	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562552042674	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562552042674	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562552042675	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562552042675	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562552042675	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562552042675	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562552042675	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562552042675	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562552042676	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562552042676	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562552042676	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562552042676	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562552042678	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562552042678	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562552042679	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562552042766	Marionette	INFO	Listening on port 38029
+1562552042766	Marionette	DEBUG	Remote service is active
+1562552042934	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:42638
+1562552043023	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562552043024	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562552043093	Marionette	TRACE	[4294967297] Frame script loaded
+1562552043101	Marionette	TRACE	[4294967297] Frame script registered
+1562552043134	Marionette	TRACE	[2147483667] Frame script loaded
+1562552043138	Marionette	TRACE	[2147483667] Frame script registered
+1562552043156	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"78caa58c-cdd3-446c-85d1-7f60f9a21217","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.3XZ7fzOBkUJO","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562552043171	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562552043246	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://835f208f-c4b6-4ecd-b4f8-6a4d5f05c719/skin/firstRun.html
+1562552043358	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://835f208f-c4b6-4ecd-b4f8-6a4d5f05c719/skin/firstRun.html
+1562552043361	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://835f208f-c4b6-4ecd-b4f8-6a4d5f05c719/skin/firstRun.html
+1562552043368	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562552043522	Marionette	TRACE	[6442450945] Frame script loaded
+1562552043523	Marionette	TRACE	[6442450945] Frame script registered
+1562552043570	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562552043802	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562552043935	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562552043937	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562552043949	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"hp\"]"}]
+1562552043981	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"346d397f-8f50-4432-961d-51bde290ea4c"}}]
+1562552043991	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClick",{"id":"346d397f-8f50-4432-961d-51bde290ea4c"}]
+1562552044030	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/
+1562552044078	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/
+1562552044080	Marionette	TRACE	[6442450945] Received DOM event unload for http://127.0.0.1:8000/
+1562552044132	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/moviepoll/
+1562552044227	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/moviepoll/
+1562552044229	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1562552044256	Marionette	DEBUG	0 -> [0,5,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+JavaScript error: moz-extension://9da3845e-460b-43c7-912b-d39796769326/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://9da3845e-460b-43c7-912b-d39796769326/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://9da3845e-460b-43c7-912b-d39796769326/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+1562552044311	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562552044313	Marionette	DEBUG	0 <- [1,5,null,["4294967297"]]
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 41.46 ms
+1562552045420	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.H7yQFqer0Xj4"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.H7yQFqer0Xj4 ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.H7yQFqer0Xj4 Child process initialized in 26.79 ms
+1562552046080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562552046080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562552046431	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552046498	Marionette	TRACE	Received observer notification profile-after-change
+1562552046840	Marionette	TRACE	Received observer notification command-line-startup
+1562552046840	Marionette	TRACE	Received observer notification nsPref:changed
+1562552046840	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562552048336	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562552048568	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552049579	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562552049580	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+JavaScript error: moz-extension://d5397a96-4a09-4038-a145-9e6ef5e6103a/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562552050240	Marionette	TRACE	All scripts recorded.
+1562552050240	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562552050241	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562552050241	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562552050241	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562552050243	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562552050244	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562552050245	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562552050245	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562552050246	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562552050246	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562552050246	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562552050248	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562552050249	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562552050249	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562552050249	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562552050250	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562552050250	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562552050251	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562552050252	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562552050252	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562552050252	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562552050252	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562552050253	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562552050253	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562552050253	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562552050254	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562552050323	Marionette	INFO	Listening on port 40059
+1562552050323	Marionette	DEBUG	Remote service is active
+1562552050350	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:35762
+1562552050358	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562552050359	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562552050418	Marionette	TRACE	[2147483667] Frame script loaded
+1562552050423	Marionette	TRACE	[2147483667] Frame script registered
+1562552050448	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"6bb673e5-8814-45da-94ed-bf6c9c3fbd44","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.H7yQFqer0Xj4","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562552050455	Marionette	TRACE	[4294967297] Frame script loaded
+1562552050468	Marionette	TRACE	[4294967297] Frame script registered
+1562552050470	Marionette	TRACE	[4294967300] Frame script loaded
+1562552050474	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562552050476	Marionette	TRACE	[4294967300] Frame script registered
+1562552050514	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://5c9a1f0f-ecb4-43af-b51f-ddc602246512/skin/firstRun.html
+1562552050552	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://5c9a1f0f-ecb4-43af-b51f-ddc602246512/skin/firstRun.html
+1562552050555	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://5c9a1f0f-ecb4-43af-b51f-ddc602246512/skin/firstRun.html
+1562552050561	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562552050881	Marionette	TRACE	[6442450945] Frame script loaded
+1562552050882	Marionette	TRACE	[6442450945] Frame script registered
+1562552050935	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562552051231	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562552051361	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562552051374	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562552051416	Marionette	DEBUG	0 -> [0,3,"WebDriver:GetTitle",{}]
+1562552051418	Marionette	DEBUG	0 <- [1,3,null,{"value":"Home Page"}]
+1562552051464	Marionette	DEBUG	0 -> [0,4,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562552051527	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562552051528	Marionette	DEBUG	0 <- [1,4,null,["4294967297"]]
+[Parent 4981, Gecko_IOThread] WARNING: pipe error (117): Connection reset by peer: file /build/firefox-AFMdyg/firefox-65.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1562552051578	Marionette	DEBUG	Closed connection 0
+1562552051588	Marionette	DEBUG	Closed connection 0
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562552090092	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1562552090093	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1562552090094	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1562552090095	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1562552090095	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1562552090097	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1562552090098	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1562552090098	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1562552090099	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1562552090099	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1562552090100	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1562552090101	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1562552090101	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1562552090102	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1562552090102	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1562552090102	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1562552090102	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1562552090102	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1562552090103	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1562552090103	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1562552090103	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1562552090104	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1562552090104	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1562552090104	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1562552090104	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1562552090104	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1562552090104	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1562552090105	Marionette	INFO	Stopped listening on port 40059
+1562552090105	Marionette	DEBUG	Remote service is inactive
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562552091826	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1562552091827	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1562552091827	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1562552091827	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1562552091828	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1562552091829	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1562552091829	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1562552091830	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1562552091830	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1562552091831	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1562552091832	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1562552091832	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1562552091834	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1562552091834	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1562552091834	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1562552091835	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1562552091835	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1562552091835	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1562552091835	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1562552091836	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1562552091836	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1562552091836	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1562552091836	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1562552091836	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1562552091837	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1562552091837	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1562552091837	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1562552091838	Marionette	INFO	Stopped listening on port 38029
+1562552091838	Marionette	DEBUG	Remote service is inactive
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 21.24 ms
+1562552181907	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zdSbu3hRsQjD"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.zdSbu3hRsQjD ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.zdSbu3hRsQjD Child process initialized in 22.74 ms
+1562552182405	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562552182406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562552182667	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552182727	Marionette	TRACE	Received observer notification profile-after-change
+1562552183050	Marionette	TRACE	Received observer notification command-line-startup
+1562552183051	Marionette	TRACE	Received observer notification nsPref:changed
+1562552183051	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562552183894	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562552184129	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552185097	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562552185098	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+JavaScript error: moz-extension://fd9ce915-1d8b-4e02-83d5-fcf4d3e0e2f5/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562552185350	Marionette	TRACE	All scripts recorded.
+1562552185350	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562552185351	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562552185351	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562552185351	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562552185353	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562552185354	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562552185354	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562552185355	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562552185355	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562552185356	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562552185356	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562552185358	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562552185358	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562552185359	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562552185359	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562552185359	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562552185359	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562552185361	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562552185361	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562552185361	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562552185361	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562552185362	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562552185362	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562552185362	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562552185363	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562552185363	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562552185424	Marionette	INFO	Listening on port 44109
+1562552185424	Marionette	DEBUG	Remote service is active
+1562552185587	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55294
+1562552185679	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562552185680	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562552185770	Marionette	TRACE	[2147483667] Frame script loaded
+1562552185771	Marionette	TRACE	[4294967297] Frame script loaded
+1562552185779	Marionette	TRACE	[2147483667] Frame script registered
+1562552185780	Marionette	TRACE	[4294967297] Frame script registered
+1562552185786	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"c9092a55-6fdb-4fc2-955c-7c512d40d699","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.zdSbu3hRsQjD","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562552185809	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562552185875	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://9393bffa-7104-48c4-a3f0-14738f880ff2/skin/firstRun.html
+1562552185976	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://9393bffa-7104-48c4-a3f0-14738f880ff2/skin/firstRun.html
+1562552185977	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://9393bffa-7104-48c4-a3f0-14738f880ff2/skin/firstRun.html
+1562552185980	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562552186258	Marionette	TRACE	[6442450945] Frame script loaded
+1562552186260	Marionette	TRACE	[6442450945] Frame script registered
+1562552186321	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562552186619	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562552186722	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562552186726	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562552186742	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"hp\"]"}]
+1562552186758	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"26383955-8ee9-4ea0-926d-95f67dcb2e43"}}]
+1562552186763	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClick",{"id":"26383955-8ee9-4ea0-926d-95f67dcb2e43"}]
+1562552186796	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/
+1562552186860	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/
+1562552186861	Marionette	TRACE	[6442450945] Received DOM event unload for http://127.0.0.1:8000/
+1562552186927	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/moviepoll/
+1562552187017	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/moviepoll/
+1562552187018	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1562552187034	Marionette	DEBUG	0 -> [0,5,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562552187078	Marionette	TRACE	Received observer notification message-manager-disconnect
+JavaScript error: moz-extension://fd9ce915-1d8b-4e02-83d5-fcf4d3e0e2f5/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://fd9ce915-1d8b-4e02-83d5-fcf4d3e0e2f5/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://fd9ce915-1d8b-4e02-83d5-fcf4d3e0e2f5/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+1562552187083	Marionette	DEBUG	0 <- [1,5,null,["4294967297"]]
+[Parent 5374, Gecko_IOThread] WARNING: pipe error (151): Connection reset by peer: file /build/firefox-AFMdyg/firefox-65.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 24.51 ms
+1562552188185	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.x5VmTpog5a0U"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.x5VmTpog5a0U ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.x5VmTpog5a0U Child process initialized in 29.97 ms
+1562552188820	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562552188821	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562552189187	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552189249	Marionette	TRACE	Received observer notification profile-after-change
+1562552189642	Marionette	TRACE	Received observer notification command-line-startup
+1562552189642	Marionette	TRACE	Received observer notification nsPref:changed
+1562552189642	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562552190795	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562552191047	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552192255	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562552192255	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+JavaScript error: moz-extension://164739c1-2d90-4f64-9036-988e39f42416/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562552192460	Marionette	TRACE	All scripts recorded.
+1562552192467	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562552192468	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562552192469	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562552192469	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562552192470	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562552192471	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562552192471	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562552192472	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562552192472	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562552192473	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562552192473	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562552192474	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562552192474	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562552192474	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562552192475	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562552192475	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562552192476	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562552192476	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562552192476	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562552192476	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562552192477	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562552192477	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562552192477	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562552192477	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562552192478	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562552192478	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562552192559	Marionette	INFO	Listening on port 34367
+1562552192559	Marionette	DEBUG	Remote service is active
+1562552192647	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:36414
+1562552192676	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562552192685	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562552192759	Marionette	TRACE	[4294967297] Frame script loaded
+1562552192802	Marionette	TRACE	[2147483667] Frame script loaded
+1562552192803	Marionette	TRACE	[4294967297] Frame script registered
+1562552192811	Marionette	TRACE	[2147483667] Frame script registered
+1562552192827	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"f9e6d6be-4521-4586-84bc-e8c1977c9d7e","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.x5VmTpog5a0U","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562552192922	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562552193018	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://13818bd1-46ac-4e75-8723-64f7b2bc46b1/skin/firstRun.html
+1562552193078	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://13818bd1-46ac-4e75-8723-64f7b2bc46b1/skin/firstRun.html
+1562552193079	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://13818bd1-46ac-4e75-8723-64f7b2bc46b1/skin/firstRun.html
+1562552193083	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562552193293	Marionette	TRACE	[6442450945] Frame script loaded
+1562552193294	Marionette	TRACE	[6442450945] Frame script registered
+1562552193342	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562552193564	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562552193650	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562552193658	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562552193685	Marionette	DEBUG	0 -> [0,3,"WebDriver:GetTitle",{}]
+1562552193686	Marionette	DEBUG	0 <- [1,3,null,{"value":"Home Page"}]
+1562552193698	Marionette	DEBUG	0 -> [0,4,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562552193751	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562552193752	Marionette	DEBUG	0 <- [1,4,null,["4294967297"]]
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 30.75 ms
+1562552194849	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lHJyJrVYAUZw"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.lHJyJrVYAUZw ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.lHJyJrVYAUZw Child process initialized in 32.08 ms
+1562552195718	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562552195719	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562552196071	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552196162	Marionette	TRACE	Received observer notification profile-after-change
+1562552196586	Marionette	TRACE	Received observer notification command-line-startup
+1562552196586	Marionette	TRACE	Received observer notification nsPref:changed
+1562552196586	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562552197707	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562552197934	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+JavaScript error: moz-extension://a4b31e0c-2555-4db7-abe2-d1d7b3ee29fc/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562552199182	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562552199183	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1562552199701	Marionette	TRACE	All scripts recorded.
+1562552199701	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562552199702	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562552199702	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562552199702	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562552199702	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562552199703	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562552199703	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562552199704	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562552199704	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562552199704	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562552199704	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562552199705	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562552199705	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562552199705	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562552199706	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562552199706	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562552199706	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562552199706	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562552199706	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562552199707	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562552199707	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562552199707	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562552199708	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562552199708	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562552199708	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562552199708	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562552199776	Marionette	INFO	Listening on port 38559
+1562552199776	Marionette	DEBUG	Remote service is active
+1562552199870	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:47206
+1562552199876	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562552199877	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562552199922	Marionette	TRACE	[2147483667] Frame script loaded
+1562552199930	Marionette	TRACE	[2147483667] Frame script registered
+1562552199934	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"2c4d040b-c794-473c-acc1-3e625494e1ff","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.lHJyJrVYAUZw","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562552199942	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562552199993	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://317d4b60-3b36-4f91-8750-4a999126e771/skin/firstRun.html
+1562552199997	Marionette	TRACE	[4294967297] Frame script loaded
+1562552200000	Marionette	TRACE	[4294967297] Frame script registered
+1562552200056	Marionette	TRACE	[4294967300] Frame script loaded
+1562552200013	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://317d4b60-3b36-4f91-8750-4a999126e771/skin/firstRun.html
+1562552200058	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://317d4b60-3b36-4f91-8750-4a999126e771/skin/firstRun.html
+1562552200061	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562552200076	Marionette	TRACE	[4294967300] Frame script registered
+1562552200331	Marionette	TRACE	[6442450945] Frame script loaded
+1562552200332	Marionette	TRACE	[6442450945] Frame script registered
+1562552200383	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562552200730	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562552200939	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562552200943	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562552200955	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"hp\"]"}]
+1562552200961	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"faa3e834-a28d-4b2b-886f-c467505485be"}}]
+1562552200972	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClick",{"id":"faa3e834-a28d-4b2b-886f-c467505485be"}]
+1562552201035	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/
+1562552201735	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/
+1562552201737	Marionette	TRACE	[6442450945] Received DOM event unload for http://127.0.0.1:8000/
+1562552201787	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/moviepoll/
+1562552201872	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/moviepoll/
+1562552201874	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1562552201889	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetTitle",{}]
+1562552201889	Marionette	DEBUG	0 <- [1,5,null,{"value":"Intek Movie Friday Poll"}]
+1562552201906	Marionette	DEBUG	0 -> [0,6,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+JavaScript error: moz-extension://a4b31e0c-2555-4db7-abe2-d1d7b3ee29fc/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://a4b31e0c-2555-4db7-abe2-d1d7b3ee29fc/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+1562552201960	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562552201961	Marionette	DEBUG	0 <- [1,6,null,["4294967297"]]
+1562552202005	Marionette	DEBUG	Closed connection 0
+1562552202009	Marionette	DEBUG	Closed connection 0
+1562552202022	Marionette	DEBUG	Closed connection 0
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  receivedBroadcastMessage: handler for
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562552459930	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1562552459930	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1562552459930	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1562552459931	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1562552459931	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1562552459932	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1562552459932	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1562552459932	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1562552459932	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1562552459933	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1562552459933	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1562552459934	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1562552459935	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1562552459935	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1562552459935	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1562552459935	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1562552459935	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1562552459936	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1562552459936	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1562552459937	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1562552459937	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1562552459937	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1562552459937	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1562552459937	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1562552459937	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1562552459938	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1562552459938	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1562552459939	Marionette	INFO	Stopped listening on port 38559
+1562552459939	Marionette	DEBUG	Remote service is inactive
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562552461349	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1562552461349	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1562552461349	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1562552461350	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1562552461350	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1562552461350	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1562552461351	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1562552461351	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1562552461351	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1562552461352	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1562552461352	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1562552461352	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1562552461353	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1562552461353	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1562552461354	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1562552461354	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1562552461354	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1562552461354	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1562552461354	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1562552461355	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1562552461355	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1562552461355	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1562552461355	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1562552461355	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1562552461356	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1562552461356	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1562552461356	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1562552461357	Marionette	INFO	Stopped listening on port 34367
+1562552461357	Marionette	DEBUG	Remote service is inactive
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+1562552462536	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1562552462536	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1562552462537	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1562552462537	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1562552462537	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1562552462538	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1562552462538	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1562552462539	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1562552462539	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1562552462540	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1562552462540	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1562552462541	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1562552462541	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1562552462542	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1562552462542	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1562552462542	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1562552462542	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1562552462542	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1562552462543	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1562552462543	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1562552462543	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1562552462543	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1562552462544	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1562552462544	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1562552462544	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1562552462544	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1562552462544	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1562552462545	Marionette	INFO	Stopped listening on port 44109
+1562552462545	Marionette	DEBUG	Remote service is inactive
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 21.04 ms
+1562552471545	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RsDG88F6zZrY"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.RsDG88F6zZrY ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.RsDG88F6zZrY Child process initialized in 24.28 ms
+1562552472044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562552472045	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562552472309	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552472366	Marionette	TRACE	Received observer notification profile-after-change
+1562552472725	Marionette	TRACE	Received observer notification command-line-startup
+1562552472726	Marionette	TRACE	Received observer notification nsPref:changed
+1562552472726	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562552473645	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562552473878	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552474968	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562552474969	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+JavaScript error: moz-extension://e4a532b1-1226-48df-aa55-3f5450861fb2/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562552475211	Marionette	TRACE	All scripts recorded.
+1562552475212	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562552475212	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562552475213	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562552475213	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562552475213	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562552475214	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562552475215	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562552475215	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562552475215	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562552475216	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562552475216	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562552475217	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562552475217	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562552475217	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562552475217	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562552475218	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562552475218	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562552475218	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562552475218	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562552475219	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562552475219	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562552475219	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562552475220	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562552475220	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562552475220	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562552475220	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562552475280	Marionette	INFO	Listening on port 43987
+1562552475280	Marionette	DEBUG	Remote service is active
+1562552475425	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:46974
+1562552475494	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562552475495	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562552475577	Marionette	TRACE	[4294967297] Frame script loaded
+1562552475582	Marionette	TRACE	[4294967297] Frame script registered
+1562552475624	Marionette	TRACE	[2147483667] Frame script loaded
+1562552475631	Marionette	TRACE	[2147483667] Frame script registered
+1562552475636	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"1a8c2b12-8306-45e9-bead-8db9692630f1","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.RsDG88F6zZrY","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562552475642	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562552475715	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://c723ffda-d106-4ca4-af6c-5f0dd34aa98e/skin/firstRun.html
+1562552475840	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://c723ffda-d106-4ca4-af6c-5f0dd34aa98e/skin/firstRun.html
+1562552475841	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://c723ffda-d106-4ca4-af6c-5f0dd34aa98e/skin/firstRun.html
+1562552475845	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562552476154	Marionette	TRACE	[6442450945] Frame script loaded
+1562552476155	Marionette	TRACE	[6442450945] Frame script registered
+1562552476211	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562552476531	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562552476605	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562552476607	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562552476641	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"hp\"]"}]
+1562552476652	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6eec5ac8-a890-457e-993d-280a8097d5b4"}}]
+1562552476657	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClick",{"id":"6eec5ac8-a890-457e-993d-280a8097d5b4"}]
+1562552476685	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/
+1562552476736	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/
+1562552476738	Marionette	TRACE	[6442450945] Received DOM event unload for http://127.0.0.1:8000/
+1562552476813	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/moviepoll/
+1562552476908	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/moviepoll/
+1562552476910	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1562552476931	Marionette	DEBUG	0 -> [0,5,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+JavaScript error: moz-extension://e4a532b1-1226-48df-aa55-3f5450861fb2/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://e4a532b1-1226-48df-aa55-3f5450861fb2/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://e4a532b1-1226-48df-aa55-3f5450861fb2/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+1562552476985	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562552476986	Marionette	DEBUG	0 <- [1,5,null,["4294967297"]]
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 22.97 ms
+1562552478069	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KH6fva0uPcrl"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.KH6fva0uPcrl ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.KH6fva0uPcrl Child process initialized in 23.32 ms
+1562552478721	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562552478721	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562552479057	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552479135	Marionette	TRACE	Received observer notification profile-after-change
+1562552479588	Marionette	TRACE	Received observer notification command-line-startup
+1562552479589	Marionette	TRACE	Received observer notification nsPref:changed
+1562552479589	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562552480629	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562552480867	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+JavaScript error: moz-extension://809efeb2-8a0e-4f46-8667-4c1056c3c98f/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562552482219	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562552482220	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1562552482603	Marionette	TRACE	All scripts recorded.
+1562552482603	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562552482604	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562552482604	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562552482604	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562552482604	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562552482605	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562552482605	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562552482610	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562552482612	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562552482612	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562552482613	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562552482616	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562552482616	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562552482616	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562552482616	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562552482616	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562552482617	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562552482617	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562552482617	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562552482617	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562552482617	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562552482618	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562552482618	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562552482618	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562552482618	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562552482619	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562552482692	Marionette	INFO	Listening on port 37179
+1562552482692	Marionette	DEBUG	Remote service is active
+1562552482795	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:41638
+1562552482800	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562552482803	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562552482874	Marionette	TRACE	[2147483667] Frame script loaded
+1562552482877	Marionette	TRACE	[2147483667] Frame script registered
+1562552482887	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"b51bcc64-56ad-4c64-9891-e7ae04dcc75e","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.KH6fva0uPcrl","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562552482897	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562552482939	Marionette	TRACE	[4294967297] Frame script loaded
+1562552482947	Marionette	TRACE	[4294967297] Frame script registered
+1562552482949	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://ba261de8-6ac1-4db4-b1d6-b43f491349c8/skin/firstRun.html
+1562552482950	Marionette	TRACE	[4294967300] Frame script loaded
+1562552482952	Marionette	TRACE	[4294967300] Frame script registered
+1562552482990	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://ba261de8-6ac1-4db4-b1d6-b43f491349c8/skin/firstRun.html
+1562552482991	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://ba261de8-6ac1-4db4-b1d6-b43f491349c8/skin/firstRun.html
+1562552482994	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562552483198	Marionette	TRACE	[6442450945] Frame script loaded
+1562552483199	Marionette	TRACE	[6442450945] Frame script registered
+1562552483252	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562552483567	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562552483823	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562552483830	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562552483840	Marionette	DEBUG	0 -> [0,3,"WebDriver:GetTitle",{}]
+1562552483841	Marionette	DEBUG	0 <- [1,3,null,{"value":"Home Page"}]
+1562552483849	Marionette	DEBUG	0 -> [0,4,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://809efeb2-8a0e-4f46-8667-4c1056c3c98f/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+1562552483925	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562552483926	Marionette	DEBUG	0 <- [1,4,null,["4294967297"]]
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://809efeb2-8a0e-4f46-8667-4c1056c3c98f/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: Invalid tab ID: 2
+JavaScript error: moz-extension://809efeb2-8a0e-4f46-8667-4c1056c3c98f/bg/RequestGuard.js, line 118: Error: Could not establish connection. Receiving end does not exist.
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 21.77 ms
+1562552485056	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4BLJ1V80Pqut"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.4BLJ1V80Pqut ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.4BLJ1V80Pqut Child process initialized in 52.05 ms
+1562552485805	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562552485805	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562552486190	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552486250	Marionette	TRACE	Received observer notification profile-after-change
+1562552486785	Marionette	TRACE	Received observer notification command-line-startup
+1562552486785	Marionette	TRACE	Received observer notification nsPref:changed
+1562552486785	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562552487781	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562552487999	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552489499	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562552489499	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+JavaScript error: moz-extension://2f41abd5-f34f-4075-959e-b330c6fbf3dd/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562552490037	Marionette	TRACE	All scripts recorded.
+1562552490037	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562552490038	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562552490038	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562552490038	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562552490039	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562552490040	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562552490041	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562552490041	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562552490041	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562552490042	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562552490042	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562552490044	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562552490044	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562552490044	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562552490044	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562552490045	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562552490045	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562552490046	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562552490047	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562552490048	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562552490048	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562552490048	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562552490049	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562552490049	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562552490049	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562552490049	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562552490109	Marionette	INFO	Listening on port 43127
+1562552490109	Marionette	DEBUG	Remote service is active
+1562552490177	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:45486
+1562552490187	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562552490188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562552490227	Marionette	TRACE	[2147483667] Frame script loaded
+1562552490231	Marionette	TRACE	[2147483667] Frame script registered
+1562552490235	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"c5c279c0-1108-478d-8e91-5300d7927f1b","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.4BLJ1V80Pqut","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562552490250	Marionette	TRACE	[4294967297] Frame script loaded
+1562552490280	Marionette	TRACE	[4294967297] Frame script registered
+1562552490280	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562552490282	Marionette	TRACE	[4294967300] Frame script loaded
+1562552490284	Marionette	TRACE	[4294967300] Frame script registered
+1562552490333	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://a6fc74ad-eee9-47c9-af97-ac0068f0a036/skin/firstRun.html
+1562552490347	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://a6fc74ad-eee9-47c9-af97-ac0068f0a036/skin/firstRun.html
+1562552490350	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://a6fc74ad-eee9-47c9-af97-ac0068f0a036/skin/firstRun.html
+1562552490354	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562552490777	Marionette	TRACE	[6442450945] Frame script loaded
+1562552490778	Marionette	TRACE	[6442450945] Frame script registered
+1562552490831	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562552491262	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562552491983	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562552491990	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562552492011	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"hp\"]"}]
+1562552492023	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2c3516e1-a756-4161-91e8-445389e3dd0d"}}]
+1562552492028	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClick",{"id":"2c3516e1-a756-4161-91e8-445389e3dd0d"}]
+1562552492057	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/
+1562552492105	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/
+1562552492107	Marionette	TRACE	[6442450945] Received DOM event unload for http://127.0.0.1:8000/
+1562552492162	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/moviepoll/
+1562552493569	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/moviepoll/
+1562552493570	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1562552493594	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetTitle",{}]
+1562552493595	Marionette	DEBUG	0 <- [1,5,null,{"value":"Intek Movie Friday Poll"}]
+1562552493604	Marionette	DEBUG	0 -> [0,6,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:362:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:362:13
+]]
+1562552493652	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562552493654	Marionette	DEBUG	0 <- [1,6,null,["4294967297"]]
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+Child process initialized in 25.60 ms
+1562552494738	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Cn38LGtgeEf5"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 5776, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.Cn38LGtgeEf5 ]0;firejail /usr/bin/firefox -marionette -foreground -no-remote -profile /tmp/rust_mozprofile.Cn38LGtgeEf5 Child process initialized in 23.17 ms
+1562552495262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1562552495262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1562552495533	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552495593	Marionette	TRACE	Received observer notification profile-after-change
+1562552495908	Marionette	TRACE	Received observer notification command-line-startup
+1562552495908	Marionette	TRACE	Received observer notification nsPref:changed
+1562552495908	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 105: TypeError: XPCOMUtils.generateQI is not a function
+1562552497212	Marionette	TRACE	Received observer notification toplevel-window-ready
+1562552497437	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1562552498618	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1562552498619	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+JavaScript error: moz-extension://3eb78414-6dd4-45ae-8fcf-852966c13ed6/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1562552499191	Marionette	TRACE	All scripts recorded.
+1562552499191	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1562552499192	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1562552499192	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1562552499192	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1562552499194	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1562552499195	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1562552499196	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1562552499197	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1562552499197	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1562552499198	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1562552499198	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1562552499200	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1562552499201	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1562552499201	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1562552499201	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1562552499202	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1562552499202	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1562552499204	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1562552499204	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1562552499204	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1562552499205	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1562552499205	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1562552499205	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1562552499206	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1562552499206	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1562552499206	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1562552499278	Marionette	INFO	Listening on port 37823
+1562552499278	Marionette	DEBUG	Remote service is active
+1562552499349	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:42184
+1562552499351	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1562552499352	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562552499407	Marionette	TRACE	[2147483667] Frame script loaded
+1562552499411	Marionette	TRACE	[4294967297] Frame script loaded
+1562552499416	Marionette	TRACE	[2147483667] Frame script registered
+1562552499416	Marionette	TRACE	[4294967297] Frame script registered
+1562552499418	Marionette	TRACE	[4294967300] Frame script loaded
+1562552499422	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"662be896-a5c1-43b8-9d2a-90172a5b6fde","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... ozprofile.Cn38LGtgeEf5","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1562552499426	Marionette	TRACE	[4294967300] Frame script registered
+1562552499434	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://127.0.0.1:8000/"}]
+1562552499474	Marionette	TRACE	[2147483667] Received DOM event beforeunload for moz-extension://8918c057-5324-41bb-b228-edd027e7a17f/skin/firstRun.html
+1562552499497	Marionette	TRACE	[2147483667] Received DOM event pagehide for moz-extension://8918c057-5324-41bb-b228-edd027e7a17f/skin/firstRun.html
+1562552499499	Marionette	TRACE	[2147483667] Received DOM event unload for moz-extension://8918c057-5324-41bb-b228-edd027e7a17f/skin/firstRun.html
+1562552499502	Marionette	TRACE	[2147483667] Received observer notification outer-window-destroyed
+1562552499847	Marionette	TRACE	[6442450945] Frame script loaded
+1562552499848	Marionette	TRACE	[6442450945] Frame script registered
+1562552499916	Marionette	TRACE	[6442450945] Check readyState uninitialized for about:blank
+1562552500312	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1562552501125	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1562552501140	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1562552501206	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"hp\"]"}]
+1562552501214	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1ef8f5e5-2a66-468b-ac84-7593c23b8b31"}}]
+1562552501236	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClick",{"id":"1ef8f5e5-2a66-468b-ac84-7593c23b8b31"}]
+1562552501275	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/
+1562552502459	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/
+1562552502460	Marionette	TRACE	[6442450945] Received DOM event unload for http://127.0.0.1:8000/
+1562552502507	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/moviepoll/
+1562552502596	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/moviepoll/
+1562552502603	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1562552502631	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetTitle",{}]
+1562552502632	Marionette	DEBUG	0 <- [1,5,null,{"value":"Intek Movie Friday Poll"}]
+1562552502647	Marionette	DEBUG	0 -> [0,6,"WebDriver:CloseWindow",{}]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:355:11
+close@resource://gre/modules/ExtensionContent.jsm:816:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:891:11
+observe@resource://gre/modules/ExtensionContent.jsm:907:5
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:362:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:362:13
+]]
+1562552502699	Marionette	TRACE	Received observer notification message-manager-disconnect
+1562552502700	Marionette	DEBUG	0 <- [1,6,null,["4294967297"]]
+1562552502750	Marionette	DEBUG	Closed connection 0
+1562552502753	Marionette	DEBUG	Closed connection 0
+1562552502758	Marionette	DEBUG	Closed connection 0
+1562552502759	Marionette	DEBUG	Closed connection 0
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
