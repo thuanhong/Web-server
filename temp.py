@@ -6,9 +6,6 @@ class PythonTest(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.driver.get("http://127.0.0.1:8000/")
-    
-    def tearDown(self):
-        self.driver.close()
         
     def test_title_homepage(self):
         self.assertEqual("Home Page", self.driver.title)
@@ -20,6 +17,9 @@ class PythonTest(unittest.TestCase):
     def test_vote(self):
         self.test_button()
         self.assertIn("Intek", self.driver.title)
+    
+    def tearDown(self):
+        self.driver.close()
     
 
 if __name__ == '__main__':
